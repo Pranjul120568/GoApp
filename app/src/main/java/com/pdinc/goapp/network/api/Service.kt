@@ -9,8 +9,8 @@ class Service {
         .addInterceptor { chain ->
         val request=chain.request()
             .newBuilder()
-            .addHeader("x-rapidapi-key", "7661e02c26msh99df061a55b1a55p1fde8fjsn08c92f41e06c")
-            .addHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com")
+            .addHeader("x-rapidapi-key", "")
+            .addHeader("x-rapidapi-host", "")
             .build()
             chain.proceed(request)
         }
